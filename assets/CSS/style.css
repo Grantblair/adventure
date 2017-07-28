@@ -1,5 +1,9 @@
 *{
 	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	color:black;
+	border: 1px solid black;
 }
 
 body{
@@ -21,3 +25,20 @@ body{
 	text-indent: 50px;
 	font-family: "Audiowide";
 }
+
+.gameText{
+	position:fixed;
+
+	font-size:32px;
+	font-family:"sans-serif";
+
+	top:50%;
+	left:50%;
+	width:1000px;
+	line-height:50px;
+	transform:translateY(-26px) translateX(-500px);
+	text-align:center;
+
+
+}
+
