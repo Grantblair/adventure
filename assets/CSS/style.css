@@ -38,7 +38,21 @@ body{
 	line-height:50px;
 	transform:translateY(-26px) translateX(-500px);
 	text-align:center;
-
-
 }
+
+.box{
+	width: 25%;
+	hieght: 40px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.decision_text{
+	font-family: "sans-serif";
+	font-size: 20px;
+	text-align: center;
+	text-indent: 5px;
+}
+
+
 
