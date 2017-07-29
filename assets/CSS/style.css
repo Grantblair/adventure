@@ -37,6 +37,8 @@ body{
 	width:1000px;
 	line-height:50px;
 	transform:translateY(-26px) translateX(-500px);
+	-webkit-transform:translateY(-26px) translateX(-500px);
+	-moz-transform:translateY(-26px) translateX(-500px);
 	text-align:center;
 }
 
