@@ -1,7 +1,4 @@
-console.log("hello");
 $(document).ready(function(){
-	
-	console.log("hello");
 
 
 
@@ -30,6 +27,7 @@ $(document).ready(function(){
 			if (count < 50){
 				$c.css("opacity",1 - count/50);
 				$gameText.css("opacity",count/50);
+				$gameText.css("top",50 + 30*count/50 + "%");
 				console.time("loop");
 	    		drawGrid();
 	    		updateGrid();
